@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const sequelize = require("./model");
+const db = require("./models");
 
 const app = express();
 const PORT = 6000;
@@ -10,7 +10,7 @@ const booksRoutes = require("./routes/books");
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-sequelize
+db.sequelize
   .authenticate()
   .then(() => {
     console.log("Connection has been established successfully.");
