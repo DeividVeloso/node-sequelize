@@ -1,11 +1,12 @@
 {
   "development": {
-    "username": "test",
-    "password": "test",
+    "username": "root",
+    "password": "password",
     "database": "teste",
     "host": "localhost",
     "dialect": "mysql",
-    "port": "3306"
+    "port": "3306",
+    "freezeTableName": true
   },
   "test": {
     "username": "root",
