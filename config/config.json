@@ -4,9 +4,7 @@
     "password": "password",
     "database": "teste",
     "host": "localhost",
-    "dialect": "mysql",
-    "port": "3306",
-    "freezeTableName": true
+    "dialect": "mysql"
   },
   "test": {
     "username": "root",

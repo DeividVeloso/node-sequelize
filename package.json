@@ -5,6 +5,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
+    "sequelize": "node_modules/.bin/sequelize",
     "start": "NODE_ENV='development' nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
